@@ -1,0 +1,25 @@
+{
+  "name": "androrim.github.io",
+  "version": "1.0.0",
+  "description": "Leandro de Amorim",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androrim/androrim.github.io.git"
+  },
+  "keywords": [
+    "Desenvolvedor",
+    "de",
+    "soluções",
+    "web"
+  ],
+  "author": "Leandro de Amorim <https://www.linkedin.com/in/leandrodeamorim>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/androrim/androrim.github.io/issues"
+  },
+  "homepage": "https://github.com/androrim/androrim.github.io#readme"
+}

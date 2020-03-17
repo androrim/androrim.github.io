@@ -35,24 +35,25 @@
             color: inherit;
         }
 
-        a i.icon {
+        .icon {
             content: '';
             display: block;
             width: 20px;
             height: 20px;
             margin-right: 3px;
+            background-repeat: no-repeat;
         }
 
-        a i.email {
-            background: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/minutemailer.svg');
+        .icon.email {
+            background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/gmail.svg');
         }
 
-        a i.linkedin {
-            background: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/linkedin.svg');
+        .icon.linkedin {
+            background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/linkedin.svg');
         }
 
-        a i.skype {
-            background: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/skype.svg');
+        .icon.skype {
+            background-image: url('https://cdnjs.cloudflare.com/ajax/libs/simple-icons/3.0.1/skype.svg');
         }
     </style>
 </head>
@@ -71,32 +72,24 @@
             <h2 class="h3 mt-0">Web Solutions Developer</h2>
         </header>
 
-        <section class="text-dark d-flex align-items-center">
-            <address class="m-0">
-                <a class="d-flex align-items-center" title="Entre em contato com Leandro de Amorim"
-                    href="mailto:androrim@gmail.com">
-                    <i class="icon email"></i>
-                    androrim@gmail.com
-                </a>
-            </address>
-
-            <div class="m-3 text-secondary"> | </div>
-
-            <address class="m-0">
-                <a class="d-flex align-items-center" title="Leandro de Amorim no Linkedin"
-                    href="http://https://www.linkedin.com/in/leandrodeamorim/">
-                    <i class="icon linkedin"></i>
+        <section class="d-flex flex-wrap justify-content-center">
+            <address class="p-2 d-flex align-items-center">
+                <i class="icon linkedin"></i>
+                <a title="Leandro de Amorim no Linkedin" href="https://www.linkedin.com/in/leandrodeamorim/">
                     Leandro de Amorim
                 </a>
             </address>
 
-            <div class="m-3 text-secondary"> | </div>
-
-            <address class="m-0">
-                <a class="d-flex align-items-center" rel="nofollow">
-                    <i class="icon skype"></i>
-                    leandro.de.amorim
+            <address class="p-2 d-flex align-items-center">
+                <i class="icon email"></i>
+                <a title="Leandro de Amorim no Linkedin" href="mailto:androrim@gmail.com">
+                    androrim@gmail.com
                 </a>
+            </address>
+
+            <address class="p-2 d-flex align-items-center">
+                <i class="icon skype"></i>
+                leandro.de.amorim
             </address>
         </section>
     </main>
